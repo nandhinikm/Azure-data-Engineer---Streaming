@@ -9,7 +9,7 @@ Welcome to my real-time data engineering project! This project focuses on buildi
 The project is structured into several key phases:
 
 1. **Data Extraction with Python Script:**
-   I've developed a Python script running on an AWS EC2 instance to extract financial data from Google Finance using web scraping techniques. The extracted data is then cleaned and transformed before being pushed to Kafka topics via a Kafka producer.
+   I've developed a Python script running on an Azure VM instance to extract financial data from Google Finance using web scraping techniques. The extracted data is then cleaned and transformed before being pushed to Kafka topics via a Kafka producer.
 
 2. **Real-time Data Streaming with Kafka Producer:**
    Kafka is used to power the real-time data streaming aspect of the pipeline. By setting up Kafka on AWS EC2 and defining topics, various consumers including PySpark in Databricks can access real-time data for processing.
